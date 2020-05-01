@@ -1,3 +1,8 @@
+/* Write a pgm to give a mirror output of a analog clock ⏰
+
+Eg.. 
+Input.. 3 hr 20 min
+Output  8:40*/
 import java.util.*; public class MirrorClock
 {
 public static void main(String args[])
