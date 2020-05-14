@@ -8,7 +8,7 @@ public class PerfectNo {
         System.out.println("Enter a number to check if it's perfect no.");
         num = Integer.parseInt(in.readLine());
 
-        for (i = 1; i <= num; i++) {
+        for (i = 1; i < num; i++) {
             if (num % i == 0) {
                 sum = sum + i;
             }
